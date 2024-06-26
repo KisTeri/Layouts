@@ -1,0 +1,315 @@
+@font-face{
+    font-family: 'Casper';
+    src: url("font/Casper.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url("font/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: 'Montserrat-Light';
+    src: url("font/Montserrat/static/Montserrat-Light.ttf") format("truetype");
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 1526px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+    background-image: url("./img/Baikal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Name{
+    margin-top: 30px;
+    margin-right: 400px;
+    margin-left: 70px;
+}
+
+.ul1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 100%;
+    font-weight: 500;
+ }
+
+.li1{
+    display: inline;
+    padding-top: 38px;
+    margin: 0 25px;
+}
+ 
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: white
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:focus{
+    color: #ffa755;
+
+}
+
+a:hover{
+    color: #ffa755;
+}
+
+a:active{
+    color: #ffa755;
+}
+
+
+.TextBlock{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 650%;
+    font-weight: 600;
+    top: 240px;
+    left: 80px;
+    font-family: 'Casper';
+    text-align: center;
+}
+
+.TextBlock2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Montserrat-Light';
+    top: 370px;
+    left: 80px;
+    text-align: left;
+}
+
+.Button{
+    position: absolute;
+    top: 470px;
+    left: 80px;
+}
+
+.Start{
+    height: 35px;
+    width: 150px;
+    background-color: rgba(255, 133, 30, 1);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat-Light';
+    font-size: 90%;
+}
+
+
+
+.li2{
+    display: inline;
+    padding-top: 38px;
+    margin: 0 3px;
+}
+ 
+.ul2{
+    display: flex;
+    justify-content: space-between;
+    /*margin-right: 10px;*/
+    position: absolute;
+    top:580px;
+    left: 80px;
+ }
+
+.Arrows{
+    position: absolute;
+    top:620px;
+    right: 650px;
+}
+
+.PhoneNumber{
+    position: absolute;
+    top:620px;
+    right: 40px;
+}
+
+
+.Block1{
+    height: 550px;
+    width: 100%;
+    background: rgba(4, 32, 56, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextBlock3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Casper';
+    font-size: 300%;
+    top: 750px;
+    left: 80px;
+    text-align: left;
+    font-weight: bold;
+    width: 200px;
+}
+
+.I2{
+    /*position: absolute;
+    top: 450px;
+    left: 80px;*/
+}
+
+.TextBlock4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Montserrat-Light';
+    top: 840px;
+    left: 80px;
+    text-align: left;
+}
+
+.I1{
+    margin-top: 140px;
+}
+
+.Block2{
+    width: 100%;
+    height: 300px;
+    background: rgba(4, 32, 56, 1);
+    justify-content: space-between;
+    display: flex;
+}
+
+.Card1{
+    width: 16%;
+    height: 210px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background: rgba(4, 32, 56, 1);
+    margin-left: 220px;
+}
+
+.TextBlock5{
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Casper';
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.TextBlock6{
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Montserrat-Light';
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Card2{
+    width: 16%;
+    height: 210px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background: rgba(4, 32, 56, 1);
+}
+
+.Card3{
+    width: 16%;
+    height: 210px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background: rgba(4, 32, 56, 1);
+}
+
+.Card4{
+    width: 16%;
+    height: 210px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background: rgba(4, 32, 56, 1);
+    margin-right: 220px;
+}
+
+
+
+.Block3{
+    width: 100%;
+    height: 400px;
+    background: rgba(4, 32, 56, 1);
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.B3{
+    width: 30%;
+    height: 220px;
+    margin-left:190px;
+    margin-top: 130px;
+}
+
+.TextBlock7{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Casper';
+    font-size: 300%;
+    top: 1570px;
+    left: 80px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.TextBlock8{
+    color: rgb(255, 255, 255);
+    font-family: 'Casper';
+    font-size: 150%;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.TextBlock9{
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Montserrat-Light';
+    text-align: left;
+    margin-top: 30px;
+}
+
+.Block4{
+    width: 100%;
+    height: 300px;
+    background: rgba(4, 32, 56, 1);
+    justify-content: space-between;
+    display: flex;
+}
+
+.B6{
+    width: 30%;
+    height: 220px;
+    margin-right:150px;
+
+}
+
+.Block5{
+    width: 100%;
+    height: 400px;
+    background: rgba(4, 32, 56, 1);
+    justify-content: space-between;
+    display: flex;
+}
