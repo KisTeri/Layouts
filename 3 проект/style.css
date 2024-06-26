@@ -1,0 +1,599 @@
+.header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(69, 60, 65, 1);   
+}
+
+.Logo{
+    margin-left: 280px;
+    margin-right: 50px;
+    margin-top: 36px;
+    color: white;
+    font-weight: 600;
+    font-size: 150%;
+}
+
+li{
+    font-family: "Inter";
+    display: inline;
+    padding: 25px;
+}
+ 
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+ }
+
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: rgb(255, 255, 255);
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:focus{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: #D79922;
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+.Block1{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: url("./images/scooter-3620869_960_720.jpg") center center no-repeat;
+    background-size: cover;
+    filter: brightness(88%);
+}
+
+.image-filter{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #453C41;
+	opacity: 0.2;
+    z-index: 0;
+}
+
+.Text1{
+    color: white;
+    font-size: 170%;
+    margin-top: 200px;
+    margin-left: 280px;
+    font-family: "Inter-Regular";
+    position: relative;
+    z-index: 2;
+}
+
+.Button1{
+    width: 130px;
+    height: 40px;
+    border-radius: 7px;
+    margin-left: 280px;
+    background-color: rgb(255, 255, 255,0);
+    border-color: white;
+    position: absolute;
+    top: 340px;
+    left: 3px;
+    z-index: 2;
+}
+
+.Button_Text1
+{
+    display: inline;
+    color: white;
+    font-size: 130%;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.Button1:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button1:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button1:hover{
+    color: rgb(255, 255, 255);
+    background-color:#D79922;
+}
+
+.Button1:focus{
+    color: rgb(255, 255, 255);
+    background-color: #D79922;
+}
+
+.Button1:active{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.Block2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(69, 60, 65, 1);
+}
+
+.Title1{
+    width: 80px;
+    color: white;
+    font-size: 170%;
+    margin-top: 200px;
+    margin-left: 280px;
+    font-family: "Inter-Regular";
+    display: flex;
+}
+
+.Text2{
+    width: 950px;
+    color: white;
+    font-size: 130%;
+    margin-top: 200px;
+    margin-left: 280px;
+    font-family: "Inter-Regular";
+    position: absolute;
+    padding-top: 90px;
+}
+
+
+
+.Block3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(69, 60, 65, 1);
+}
+
+.B1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Title2{
+    width: 80px;
+    color: white;
+    font-size: 170%;
+    margin-left: 280px;
+    font-family: "Inter-Regular";
+    display: flex;
+}
+
+#navbar li{
+    font-family: "Inter";
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 0 0 30px;  
+    margin-top: 20px; 
+}
+
+#navbar li a{
+    padding: 8px 6px;
+    text-decoration: none;
+    border-radius: 18px;
+    transition: all .2s ease;
+}
+ 
+#navbar ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin-right: 270px;
+ }
+
+#navbar a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:link{
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:visited{
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:focus{
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:hover{
+    background-color: #D79922;
+    color: white;
+    transition: all .2s ease;
+}
+
+#navbar a:active{
+    color: rgb(255, 255, 255);
+}
+
+.B2{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card1{
+    height: 300px;
+    width: 200px;
+    display: inline;
+    background-color: #D4DBE2;
+    margin-left: 280px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(195, 195, 195, 0.5);
+}
+
+.Title3{
+    font-size: 85%;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-left: 6px;
+    margin-top: 22px;
+}
+
+.Oval{
+    width: 55px;
+    height: 18px;
+    background-color: #D79922;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.Text3{
+    font-size: 85%;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.Price{
+    font-size: 85%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.Oval2{
+    width: 80px;
+    height: 18px;
+    background-color: #D79922;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.Oval3{
+    width: 106px;
+    height: 18px;
+    background-color: #D79922;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.Card2{
+    height: 300px;
+    width: 200px;
+    display: inline;
+    background-color: #D4DBE2;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(195, 195, 195, 0.5);
+}
+
+.Card3{
+    height: 300px;
+    width: 200px;
+    display: inline;
+    background-color: #D4DBE2;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(195, 195, 195, 0.5);
+}
+
+.Card4{
+    height: 300px;
+    width: 200px;
+    display: inline;
+    background-color: #D4DBE2;
+    margin-right: 280px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(195, 195, 195, 0.5);
+}
+
+
+
+.Block4{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(69, 60, 65, 1);
+}
+
+.B4{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Title4{
+    color: white;
+    font-size: 170%;
+    margin-left: 280px;
+    font-family: "Inter-Regular";
+    display: flex;
+}
+
+.B3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Inf1{
+    display: flex;
+    justify-content: space-between;
+    background: url("./images/1.jpg") center center no-repeat;
+    background-size: cover;
+    filter: brightness(85%);
+    margin-top: 70px;
+    margin-left: 280px;
+}
+
+.image-filter2{
+    width: 220px;
+	height: 220px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #453C41;
+	opacity: 0.4;
+    z-index: 0;
+}
+
+.Text4{
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 3px;
+    font-family: "Inter-Regular";
+    position: relative;
+    z-index: 2;
+}
+
+.Inf2{
+    display: flex;
+    justify-content: space-between;
+    background: url("./images/2.jpg") center center no-repeat;
+    background-size: cover;
+    filter: brightness(85%);
+    margin-top: 70px;
+}
+
+.Inf3{
+    display: flex;
+    justify-content: space-between;
+    background: url("./images/3.jpg") center center no-repeat;
+    background-size: cover;
+    filter: brightness(85%);
+    margin-top: 70px;
+}
+
+.Inf4{
+    display: flex;
+    justify-content: space-between;
+    background: url("./images/4.jpg") center center no-repeat;
+    background-size: cover;
+    filter: brightness(85%);
+    margin-top: 70px;
+    margin-right: 280px;
+}
+
+.B5{
+    width: 20%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 280px;
+}
+
+.Text5{
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 100%;
+    text-align: left;
+    font-family: "Inter-Regular";
+}
+
+
+
+.B6{
+    width: 13%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.Text6{
+    width: 250px;
+    height: 15px;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Inter-Regular";
+    margin-left: 70px;
+}
+
+
+#navbar2 li{
+    list-style-type: none;
+    padding: 0 0 0 30px; 
+    margin-top: 10px; 
+}
+
+#navbar2 li a{
+   /* padding: 8px 6px;*/
+    text-decoration: none;
+}
+ 
+#navbar2 ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+   /* margin-right: 20px;*/
+ }
+
+#navbar2 a{
+    display: block;
+    outline: none;
+    text-decoration: none;
+    /*padding: 2px 1 px 0;*/
+    color: rgb(255, 255, 255);
+}
+
+#navbar2 a:link{
+    color: rgb(255, 255, 255);
+}
+
+#navbar2 a:visited{
+    color: rgb(255, 255, 255);
+}
+
+#navbar2 a:focus{
+    color: rgb(255, 255, 255);
+}
+
+#navbar2 a:hover{
+    color: #D79922;
+}
+
+#navbar2 a:active{
+    color: rgb(255, 255, 255);
+}
+
+.B7{
+    width: 13%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Text7{
+    width: 250px;
+    height: 15px;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Inter-Regular";
+    margin-left: 70px;
+}
+
+.B8{
+    width: 25%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 480px;
+}
+
+.Text8{
+    width: 250px;
+    height: 15px;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Inter-Regular";
+    margin-left: 70px;
+}
+
+.B9{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(69, 60, 65, 1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    font-family: "Inter";
+    src: url("../FONTS/Inter/Inter-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
