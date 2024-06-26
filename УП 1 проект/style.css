@@ -1,0 +1,513 @@
+.header{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.I1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+li{
+    font-family: "PlayfairDisplay-Regular";
+    display: inline;
+    margin: 30px;
+    padding: 32px;
+}
+ 
+ul{
+    display: flex;
+    justify-content: space-between;
+ }
+
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: gray;
+}
+
+a:focus{
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+a:active{
+    color: rgb(0, 0, 0);
+}
+
+.Block1{
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+
+.I2{
+    padding-top: 40px;
+    padding-left: 57px;
+    padding-right: 57px;
+    padding-bottom: 40px;
+}
+
+.Block2{
+    height: 340px;
+    width: 100%;
+    display: flex;
+}
+
+.Chapter1{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 110px;
+    position: absolute;
+}
+
+.Title1{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 150px;
+    top: 138%;
+}
+
+.Text1{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 150px;
+    top: 144%;
+}
+
+.Chapter2{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    position: absolute;
+    padding-left: 150px;
+    top: 172%;
+}
+
+.Chapter2:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.Block3{
+    height: 770px;
+    width: 100%;
+    display: flex;
+}
+
+.B1{
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+.B2{
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+
+.I3{
+    padding-top: 70px;
+    padding-left: 150px;
+}
+
+.I4{
+    padding-top: 70px;
+    padding-left: 110px;
+}
+
+.Chapter3{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-left: 150px;
+    padding-right: 110px;
+    position: absolute;
+    top: 252%;
+}
+
+.Title2{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 150px;
+    top: 258%;
+}
+
+.Text2{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-right: 820px;
+    top: 266%;
+}
+
+.Chapter4{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-left: 110px;
+    padding-right: 110px;
+    position: absolute;
+    top: 252%;
+}
+
+.Title3{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 110px;
+    top: 258%;
+}
+
+.Text3{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 110px;
+    padding-right: 150px;
+    padding-right: 100px;
+    top: 266%;
+}
+
+.Block4{
+    height: 820px;
+    width: 100%;
+    display: flex;
+}
+
+.B3{
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+.B4{
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+
+.I5{
+    padding-top: 90px;
+    padding-left: 150px;
+}
+
+.I6{
+    padding-top: 90px;
+    padding-left: 110px;
+}
+
+.Chapter5{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-left: 150px;
+    padding-right: 110px;
+    position: absolute;
+    top: 368%;
+}
+
+.Title4{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 150px;
+    top: 374%;
+}
+
+.Text4{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-right: 820px;
+    top: 382%;
+}
+
+.Chapter6{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-left: 110px;
+    padding-right: 110px;
+    position: absolute;
+    top: 368%;
+}
+
+.Title5{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 110px;
+    top: 374%;
+}
+
+.Text5{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 110px;
+    padding-right: 150px;
+    padding-right: 100px;
+    top: 382%;
+}
+
+.Block5{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(215, 215, 215);
+    margin-bottom: 20px;
+}
+
+.Title6{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(59, 59, 59);
+    position: absolute;
+    padding-left: 650px;
+    top: 423%;
+}
+
+.Text6{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    color: rgb(59, 59, 59);
+    position: absolute;
+    padding-left: 650px;
+    top: 435%;
+}
+
+.I9{
+    position: absolute;
+    padding-left: 890px;
+    top: 435%;
+}
+.line{
+    width:18%;
+    border-bottom: 1px solid rgb(29, 29, 29);
+    margin-left: 648px;
+    position: absolute;
+    top: 439%;
+}
+
+.Block6{
+    height: 790px;
+    width: 100%;
+    display: flex;
+}
+
+.B5{
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+.B6{
+    height: 500px;
+    width: 50%;
+    display: flex;
+}
+
+.I7{
+    padding-top: 90px;
+    padding-left: 150px;
+}
+
+.I8{
+    padding-top: 90px;
+    padding-left: 110px;
+}
+
+.Chapter7{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-left: 150px;
+    padding-right: 110px;
+    position: absolute;
+    top: 520%;
+}
+
+.Title7{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 150px;
+    top: 528%;
+}
+
+.Text7{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-right: 820px;
+    top: 536%;
+}
+
+.Chapter8{
+    font-family: "Ubuntu";
+    font-size: 80%;
+    color: rgb(159, 159, 159);
+    padding-left: 110px;
+    padding-right: 110px;
+    position: absolute;
+    top: 520%;
+}
+
+.Title8{
+    font-family: "PlayfairDisplay";
+    font-size: 150%;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    padding-left: 110px;
+    top: 526%;
+}
+
+.Text8{
+    font-family: "PlayfairDisplay";
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    position: absolute;
+    padding-left: 110px;
+    padding-right: 150px;
+    padding-right: 100px;
+    top: 534%;
+}
+
+.Block7{
+    height: 140px;
+    width: 100%;
+    display: flex;
+}
+
+.Button1{
+    border: 1px solid rgb(88, 88, 88);
+    color: solid rgb(88, 88, 88);
+    background-color: rgba(186, 186, 186,0);
+    position: absolute;
+    top: 570%;
+    left: 730px;
+    height: 40px;
+    width: 110px;
+}
+
+.Button_Text{
+    font-family: "PlayfairDisplay";
+    color: solid rgb(88, 88, 88);
+    font-size: 125%;
+}
+
+.Button1:hover{
+    background: rgb(215, 215, 215);
+}
+
+.Block8{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(215, 215, 215);
+    border: 1px solid rgba(227, 156, 156, 0);
+}
+
+.Terms{
+    font-family: "PlayfairDisplay";
+    font-size: 100%;
+    /*color: rgb(39, 39, 39);*/
+    position: absolute;
+    padding-left: 148px;
+    top: 591%;
+}
+
+.Privacy{
+    font-family: "PlayfairDisplay";
+    font-size: 100%;
+    /*color: rgb(39, 39, 39);*/
+    position: absolute;
+    padding-left: 300px;
+    top: 591%;
+}
+
+.Follow{
+    font-family: "PlayfairDisplay";
+    font-size: 100%;
+    /*color: rgb(39, 39, 39);*/
+    position: absolute;
+    padding-left: 1200px;
+    top: 591%;
+}
+
+.I10{
+    position: absolute;
+    padding-left: 1260px;
+    top: 591%;
+}
+
+.I11{
+    position: absolute;
+    padding-left: 1290px;
+    top: 591%;
+}
+
+.I12{
+    position: absolute;
+    padding-left: 1330px;
+    top: 591%;
+}
+
+
+@font-face{
+    font-family: "Playfair_Display";
+    src: url("../FONTS/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Ubuntu";
+    src: url("../FONTS/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,492 @@
+.Header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo{
+    margin-left: 220px;
+    margin-top: 12px;
+    width: 81px;
+    height: 24px;
+}
+
+li{
+    display: inline;
+    margin: 0 30px;
+}
+ 
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 580px;
+ }
+
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: rgb(0, 0, 0)
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+a:focus{
+    color: #01996D;
+}
+
+a:hover{
+    color:  #01996D;
+}
+
+a:active{
+    color: rgb(0, 0, 0);
+}
+
+.SignIn{
+    width: 80px;
+    height: 30px;
+    background: none;
+    border: 1px solid #01996D;
+    position: absolute;
+    cursor: pointer;
+    top: 19px;
+    left: 1090px;
+}
+
+.SignIn:hover{
+    background: #01996D;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.StartTrial{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background: #01996D;
+    border-radius: 1px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    top: 19px;
+    left: 1180px;
+}
+
+.StartTrial:hover{
+    background:white;
+    color: #01996D;
+    border-radius: 1px;
+    border: 1px solid #01996D;
+}
+
+.Block1{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: url("./images/BG.png") center center no-repeat;
+    background-size: cover;
+    filter: brightness(100%);
+}
+
+.Title1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #01996D;
+    font-size: 220%;
+    position: absolute;
+    top: 110px;
+    left: 220px;
+}
+
+.Text1{
+    font-family: 'Lato';
+    color: #484848;
+    font-size: 100%;
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+
+.FindYourWay{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background: #01996D;
+    border-radius: 1px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    top: 335px;
+    left: 220px;
+}
+
+.FindYourWay:hover{
+    background:rgb(238, 239, 236);
+    color: #01996D;
+    border-radius: 1px;
+    border: 1px solid #01996D;
+}
+
+.Block2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title2{
+    font-family: 'Lato';
+    color: #424242;
+    font-size: 90%;
+    margin-top: 120px;
+    margin-left: 220px;
+}
+
+.Title3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #01996D;
+    font-size: 200%;
+    position: absolute;
+    top: 790px;
+    left: 230px;
+}
+
+.Text2{
+    font-family: 'Lato';
+    color: #424242;
+    font-size: 90%;
+    position: absolute;
+    top: 810px;
+    right: 220px;
+}
+
+.Block3{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.B1{
+    width: 20%;
+    height: 560px;
+    margin-left: 220px;
+}
+
+.Digit1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(1, 153, 109, 0.2);
+    font-size: 450%;
+    position: absolute;
+    top: 880px;
+}
+
+.Title4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 100%;
+    font-weight: 600;
+    position: absolute;
+    top: 990px;
+    left: 270px;
+}
+
+.Text3{
+    font-family: 'Lato';
+    color: #424242;
+    font-size: 90%;
+    margin-top: 80px;
+    margin-left: 3px;
+}
+
+.I1{
+    margin-left: 3px;
+    margin-top: 34px;
+}
+
+.B2{
+    width: 20%;
+    height: 560px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 160px;
+}
+
+.Title5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 100%;
+    font-weight: 600;
+    position: absolute;
+    top: 1150px;
+    left: 650px;
+}
+
+.Digit2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(1, 153, 109, 0.2);
+    font-size: 450%;
+    position: absolute;
+    top: 1040px;
+}
+
+
+.B3{
+    width: 20%;
+    height: 560px;
+    margin-right: 220px;
+    margin-top: 90px;
+}
+
+.Title6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 100%;
+    font-weight: 600;
+    position: absolute;
+    top: 1070px;
+    left: 1050px;
+}
+
+.Digit3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(1, 153, 109, 0.2);
+    font-size: 450%;
+    position: absolute;
+    top: 960px;
+}
+
+.Block4{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #245852;
+}
+
+.B4{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title7{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 220%;
+    margin-left: 220px;
+    margin-top: 130px;
+}
+
+.Text4{
+    font-family: 'Lato';
+    color: #ffffff;
+    font-size: 100%;
+    position: absolute;
+    top: 1885px;
+    left: 230px;
+}
+
+.Start{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background: #01996D;
+    border-radius: 1px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    top: 1950px;
+    left: 230px;
+}
+
+.Start:hover{
+    background:white;
+    color: #01996D;
+    border-radius: 1px;
+    border: 1px solid #01996D;
+}
+
+.B5{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.I2{
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 220px;
+}
+
+
+.Block5{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.B6{
+    width: 50%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.I3{
+    position: absolute;
+    top: 2180px;
+    left: 270px;
+}
+
+.I4{
+    position: absolute;
+    top: 2400px;
+    left: 230px;
+}
+
+.B7{
+    width: 50%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title8{
+    font-family: 'Lato';
+    color: #424242;
+    font-size: 90%;
+    font-weight: 600;
+    position: absolute;
+    top: 2180px;
+    left: 790px;
+}
+
+.Title9{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #01996D;
+    font-size: 200%;
+    position: absolute;
+    top: 2200px;
+    left: 790px;
+}
+
+.Text5{
+    font-family: 'Lato';
+    color: #424242;
+    font-size: 90%;
+    position: absolute;
+    top: 2310px;
+    left: 790px;
+}
+
+.FindYWay{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background: #01996D;
+    border-radius: 1px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    top: 2410px;
+    left: 790px;
+}
+
+.FindYWay:hover{
+    background:white;
+    color: #01996D;
+    border-radius: 1px;
+    border: 1px solid #01996D;
+}
+
+.Block6{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #245852;
+}
+
+.Text6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 15px;
+    color: white;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 220px;
+    margin-top: 60px;
+}
+
+
+#navbar li{
+    list-style-type: none;
+    padding: 0 0 0 30px; 
+    margin-top: 10px; 
+    margin-left: 145px;
+}
+
+#navbar li a{
+    padding: 8px 6px;
+    text-decoration: none;
+}
+ 
+#navbar ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+   /* margin-right: 20px;*/
+ }
+
+#navbar a{
+    display: block;
+    outline: none;
+    text-decoration: none;
+    /*padding: 2px 1 px 0;*/
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:link{
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:visited{
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:focus{
+    color: rgb(255, 255, 255);
+}
+
+#navbar a:hover{
+    color: #01996D
+}
+
+#navbar a:active{
+    color: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(fonts/lato/Lato-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
