@@ -1,0 +1,1000 @@
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.I1{
+    margin-left: 280px;
+    margin-right: 50px;
+    margin-top: 18px;
+}
+
+li{
+    font-family: "FontAwesome";
+    display: inline;
+    padding: 25px;
+}
+ 
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: rgb(11, 11, 11);
+}
+
+a:link{
+    color: rgb(11, 11, 11);
+}
+
+a:visited{
+    color: rgb(11, 11, 11);
+}
+
+a:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+li:link{
+    color: rgb(255, 255, 255);
+}
+
+li:visited{
+    color: rgb(255, 255, 255);
+}
+
+li:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+li:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+li:active{
+    color: rgb(255, 255, 255);
+}
+
+.I2{
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.PhoneNumber{
+    font-family: "Font_Awesome";
+    padding-right: 220px;
+    padding-top: 25px;
+}
+
+.Block1{
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+}
+
+.Title1{
+    font-family: "Font_Awesome";
+    font-size: 240%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 350px;
+    top: 300px;
+}
+
+.Text1{
+    font-family: "Font_Awesome";
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 350px;
+    top: 400px;
+}
+
+.Button1{
+    border: 1px solid rgb(255, 255, 255);
+    color: solid rgb(255, 255, 255);
+    background-color: rgba(186, 186, 186,0);
+    border-radius: 18px;
+    position: absolute;
+    top: 470px;
+    left: 350px;
+    height: 40px;
+    width: 130px;
+}
+
+.Button_Text{
+    font-family: "Font_Awesome";
+    color: rgb(255, 255, 255);
+    font-size: 125%;
+}
+
+.I3{
+    width: 1525px;
+    height: 600px;
+    object-fit: cover;
+    object-position: top bottom;
+    filter: brightness(88%);
+}
+
+.Button1:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button1:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button1:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button1:active{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.Block2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.B1{
+    height: 250px;
+    width: 20%;
+    border: solid 1px rgb(229, 229, 229);
+    display: inline;
+    margin-top: 80px;
+    margin-left: 275px;
+}
+
+.circle1 {
+    width: 50px; 
+    height: 50px;
+    background: #370b96;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.Title2{
+    font-family: "Font_Awesome";
+    font-size: 110%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.Text2{
+    font-family: "Font_Awesome";
+    font-size: 90%;
+    color: rgb(96, 96, 96);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.Digit{
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.B2{
+    height: 250px;
+    width: 20%;
+    border: solid 1px rgb(229, 229, 229);
+    display: inline;
+    margin-top: 80px;
+}
+
+.B3{
+    height: 250px;
+    width: 20%;
+    border: solid 1px rgb(229, 229, 229);
+    display: inline;
+    margin-top: 80px;
+    margin-right: 275px;
+}
+
+
+
+.Block3{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title3{
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 320px;
+    margin-top: 85px;
+}
+
+.B4{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    margin-top: 40px;
+    padding-left: 320px;
+}
+
+.D1{
+    width: 10%;
+    height: 30px;
+    margin-top: 4px;
+}
+
+.D2{
+    width: 52%;
+    height: 30px;
+}
+
+.Title4{
+    width: 200px;
+    font-family: "Font_Awesome";
+    font-size: 110%;
+    color: rgb(0, 0, 0);
+}
+
+.Text3{
+    width: 340px;
+    font-family: "Font_Awesome";
+    font-size: 90%;
+    color: rgb(96, 96, 96);
+}
+
+.B5{
+    height: 55px;
+    width: 50%;
+    display: flex;
+    margin-top: 15px;
+    padding-left: 320px;
+}
+
+.B6{
+    height: 55px;
+    width: 50%;
+    display: flex;
+    margin-top: 15px;
+    padding-left: 320px;
+}
+
+.circle2 {
+    width: 320px; 
+    height: 320px;
+    background: #18181b;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.Title5{
+    width: 200px;
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-top: 55px;
+    margin-left: 100px;
+}
+
+.text-field {
+    margin-bottom: 1rem;
+}
+
+.text-field__input {
+    display: block;
+    width: 60%;
+    height: calc(0.8rem + 2px);
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #000000;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    margin-top: 30px;
+    margin-left: 50px; 
+}
+
+.text-field__input2 {
+    display: block;
+    width: 60%;
+    height: calc(0.8rem + 2px);
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #000000;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    margin-top: 10px;
+    margin-left: 50px; 
+}
+
+.text-field__input3 {
+    display: block;
+    width: 60%;
+    height: calc(0.8rem + 2px);
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #000000;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    margin-top: 10px;
+    margin-left: 50px; 
+}
+
+.Button2{
+    border: 1px solid rgb(255, 255, 255);
+    color: solid rgb(255, 255, 255);
+    background-color: rgba(186, 186, 186,0);
+    border-radius: 18px;
+    height: 30px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.Button_Text{
+    font-family: "Font_Awesome";
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+}
+
+.Button2:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button2:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button2:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button2:active{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.Block4{
+    height: 570px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(247, 247, 247);
+}
+
+.B7{
+    width: 100%;
+    height: 50px;
+    margin-top: 80px;
+}
+
+.Title6{
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-left: 48%;
+}
+
+.Text4{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color: rgb(96, 96, 96);
+    margin-left: 680px;
+    margin-top: 10px;
+}
+
+.B8{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card1{
+    height: 330px;
+    width: 201px;
+    display: inline;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+.Title7{
+    font-family: "Font_Awesome";
+    font-size: 110%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.Text5{
+    font-family: "Font_Awesome";
+    font-size: 90%;
+    color: rgb(96, 96, 96);
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+hr{
+    border: none; 
+    background-color: rgb(236, 236, 236); 
+    color: rgb(236, 236, 236); 
+    height: 1px; 
+}
+
+.Icons{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.Card2{
+    height: 330px;
+    width: 201px;
+    display: inline;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.Card3{
+    height: 330px;
+    width: 201px;
+    display: inline;
+    background-color: white; 
+    margin-top: 25px;
+}
+
+.Card4{
+    height: 330px;
+    width: 201px;
+    background-color: white;
+    display: inline;
+    margin-top: 25px;
+    margin-right: 300px;
+}
+
+
+
+
+
+
+.Block5{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Title8{
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-left: 46%;
+}
+
+.Text6{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color: rgb(96, 96, 96);
+    margin-left: 630px;
+    margin-top: 10px;
+}
+
+.B9{
+    width: 900%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card5{
+    height: 380px;
+    width: 319px;
+    display: inline;
+    background-color: rgb(247, 247, 247);
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+.Title7{
+    font-family: "Font_Awesome";
+    font-size: 110%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.Text5{
+    font-family: "Font_Awesome";
+    font-size: 90%;
+    color: rgb(96, 96, 96);
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+hr{
+    border: none; 
+    background-color: rgb(236, 236, 236); 
+    color: rgb(236, 236, 236); 
+    height: 1px; 
+}
+
+.Bottom{
+    width: 50%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.I9{
+    width: 40px; 
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.Name{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.Button3{
+    background-color: #370b96;
+    border: 0;
+    padding: 0;
+    height: 30px;
+    width: 50px;
+    margin-top: 12px;
+    margin-left: 110px;
+}
+
+.Button_Text{
+    font-family: "Font_Awesome";
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+}
+
+.Button3:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button3:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button3:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button3:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button3:active{
+    color: rgb(255, 255, 255);
+}
+
+.Card6{
+    height: 380px;
+    width: 319px;
+    display: inline;
+    background-color: rgb(247, 247, 247);
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Button4{
+    background-color: #370b96;
+    border: 0;
+    padding: 0;
+    height: 30px;
+    width: 60px;
+    margin-top: 12px;
+    margin-left: 77px;
+}
+
+.Button4:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+
+.Card7{
+    height: 380px;
+    width: 319px;
+    display: inline;
+    background-color: rgb(247, 247, 247);
+    margin-top: 25px;
+    margin-right: 250px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+.Button5{
+    background-color: rgb(241, 241, 241);
+    border: 0;
+    padding: 0;
+    height: 25px;
+    width: 30px;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+.Button5:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button5:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button5:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(27, 205, 128);
+}
+
+.Button5:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button5:active{
+    color: rgb(255, 255, 255);
+}
+
+
+.Button6{
+    background-color: rgb(241, 241, 241);
+    border: 0;
+    padding: 0;
+    height: 25px;
+    width: 30px;
+    margin-top: 120px;
+    margin-right: 730px;
+}
+
+.Button6:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button6:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button6:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(27, 205, 128);
+}
+
+.Button6:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button6:active{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.Block6{
+    height: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(247, 247, 247);;
+}
+
+.Title9{
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-left: 45%;
+}
+
+.Text7{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color: rgb(96, 96, 96);
+    margin-left: 678px;
+    margin-top: 10px;
+}
+
+.Card8{
+    height: 270px;
+    width: 319px;
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+.Top{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.I10{
+    width: 40px; 
+    height: 40px;
+    border-radius: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.Name2{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    margin-top: 42px;
+    margin-left: 12px;
+}
+
+.Job{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.Text11{
+    font-family: "Font_Awesome";
+    font-size: 90%;
+    color: rgb(96, 96, 96);
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.Card9{
+    height: 270px;
+    width: 319px;
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Card10{
+    height: 270px;
+    width: 319px;
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-right: 250px;
+}
+
+
+.Block7{
+    height: 520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #370b96;
+}
+
+.Title10{
+    font-family: "Font_Awesome";
+    font-size: 130%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-left: 35%;
+}
+
+.Text8{
+    font-family: "Font_Awesome";
+    font-size: 100%;
+    color:  rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+
+.text-field2 {
+    margin-bottom: 1rem;
+}
+
+.text-field__input4 {
+    display: block;
+    width: 60%;
+    height: calc(0.8rem + 2px);
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #ffffff;
+    line-height: 1.5;
+    padding: 0.775rem 0.75rem;
+    margin-top: 30px;
+    margin-left: 35%; 
+}
+
+.text-field__input5 {
+    display: block;
+    width: 60%;
+    height: calc(0.8rem + 2px);
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #ffffff;
+    line-height: 1.5;
+    padding: 0.775rem 0.75rem;
+    margin-top: 10px;
+    margin-left: 35%; 
+}
+
+.text-field__input6 {
+    display: block;
+    width: 60%;
+    height: calc(0.8rem + 2px);
+    font-family: inherit;
+    font-size: 90%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #ffffff;
+    line-height: 1.5;
+    padding: 3.0rem 0.75rem;
+    margin-top: 10px;
+    margin-left: 35%; 
+}
+
+.Button7{
+    border: 1px solid rgb(255, 255, 255);
+    color: solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    height: 30px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+
+.Button_Text2{
+    font-family: "Font_Awesome";
+    color: rgb(69, 69, 69);
+    font-size: 100%;
+}
+
+.Button7:link{
+    color: rgb(255, 255, 255);
+}
+
+.Button7:visited{
+    color: rgb(255, 255, 255);
+}
+
+.Button7:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button7:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 205, 128);
+}
+
+.Button7:active{
+    color: rgb(255, 255, 255);
+}
+
+
+@font-face{
+    font-family: "Font_Awesome";
+    src: url("fontawesome-webfont.ttf") format("TrueType");
+    font-style: normal;
+    font-weight: normal;
+}
