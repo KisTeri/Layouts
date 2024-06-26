@@ -1,0 +1,484 @@
+.header{
+    height: 640px;
+    width: 99,8%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+
+    background-image: url("./images/background-header.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.I1{
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.Name{
+    color: rgba(225, 225, 225, 0.8);
+    font-size: 75%;
+    margin-top: 42px;
+    margin-right: 400px;
+    margin-left: 5px;
+}
+
+li{
+    display: inline;
+    padding-top: 38px;
+    margin: 0 25px;
+}
+ 
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+ }
+
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1 px 0;
+    color: white
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:focus{
+    color: rgb(180, 180, 180);
+
+}
+
+a:hover{
+    color: rgb(180, 180, 180);
+}
+
+a:active{
+    color: rgb(180, 180, 180);
+}
+
+.d7 form{
+    width: 250px;
+    margin: auto;
+    margin-top: 30px;
+    /*margin-right: 20px;*/
+}
+
+.d7 input{
+    height: 30px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 10px;
+    transition: .3s linear;
+    position: relative;
+}
+
+.d7:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.d7 button{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 36px;
+    right: 95px;
+    cursor: pointer;
+}
+
+.d7 button:before{
+    content: "\f002";
+    font-family: fontawesome;
+    color: rgb(77, 77, 77)
+}
+
+.TextBlock{
+    position: absolute;
+    color: white;
+    font-size: 180%;
+    top: 220px;
+    left: 460px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.Button{
+    position: absolute;
+    top: 300px;
+    left: 560px;
+}
+
+.Start{
+    height: 40px;
+    width: 180px;
+    background-color: rgb(121, 27, 209);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Start:hover{
+    color: white;
+    background-color: rgb(167, 84, 244);
+    border-radius: 25px;
+}
+
+.TextBlock2{
+    position: absolute;
+    color: white;
+    font-size: 90%;
+    top: 350px;
+    left: 504px;
+    text-align: right;
+}
+
+.Block1{
+    height: 500px;
+    width: 100%;
+    background-color: #22384e;
+}
+
+.B1{
+    height: 250px;
+    width: 50%;
+    display: flex;
+}
+.B2{
+    height: 250px;
+    width: 50%;
+    display: flex;
+}
+
+.Title1{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding-left: 400px;
+    top: 730px;
+    font-weight: bold;
+}
+
+.Text2{
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    padding-left: 400px;
+    padding-right: 820px;
+    top: 760px;
+}
+
+.Title2{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding-left: 840px;
+    top: 730px;
+    font-weight: bold;
+}
+
+.Text3{
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    padding-left: 840px;
+    padding-right: 385px;
+    top: 760px;
+}
+
+.B3{
+    height: 250px;
+    width: 50%;
+    display: flex;
+}
+.B4{
+    height: 250px;
+    width: 50%;
+    display: flex;
+}
+
+.Title3{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding-left: 400px;
+    top: 910px;
+    font-weight: bold;
+}
+
+.Text4{
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    padding-left: 400px;
+    padding-right: 820px;
+    top: 940px;
+}
+
+.Title4{
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding-left: 840px;
+    top: 910px;
+    font-weight: bold;
+}
+
+.Text5{
+    font-size: 90%;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    position: absolute;
+    padding-left: 840px;
+    padding-right: 385px;
+    top: 940px;
+}
+
+.Block2{
+    height: 500px;
+    width: 100%;
+}
+
+.I2{
+    position: absolute;
+    left: 700px;
+}
+
+
+.Button2{
+    position: absolute;
+    top: 1500px;
+    left: 660px;
+}
+.Start2{
+    height: 40px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(206, 52, 96);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Start2:hover{
+    color: white;
+    background-color: rgb(243, 136, 166);
+    border-radius: 25px;
+}
+
+.Title5{
+    position: absolute;
+    color: white;
+    font-size: 180%;
+    top: 1350px;
+    left: 570px;
+    text-align: center;
+}
+
+.Text6{
+    position: absolute;
+    color: white;
+    font-size: 120%;
+    top: 1414px;
+    left: 532px;
+    text-align: center;
+}
+
+.Block3{
+    height: 530px;
+    width: 100%;
+}
+
+.Title6{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    top: 1820px;
+    left: 850px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Text7{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    top: 1850px;
+    left: 850px;
+    text-align: justify;
+    height: 200px;
+    width: 30%;
+}
+
+.I4{
+    position: absolute;
+    top: 1675px;
+}
+
+
+.Block4{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.Button3{
+    position: absolute;
+    top: 2420px;
+    left: 660px;
+}
+
+.Start3{
+    height: 40px;
+    width: 220px;
+    background-color: rgb(175, 52, 206);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.Start3:hover{
+    color: white;
+    background-color: rgb(211, 75, 245);
+    border-radius: 25px;
+}
+
+.Title7{
+    position: absolute;
+    color: white;
+    font-size: 180%;
+    top: 2300px;
+    left: 610px;
+    text-align: center;
+}
+
+.Text8{
+    position: absolute;
+    color: rgb(183, 83, 208);
+    font-size: 100%;
+    top: 2360px;
+    left: 572px;
+    text-align: center;
+}
+
+.Text9{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    top: 2480px;
+    left: 620px;
+    text-align: center;
+}
+
+.Block5{
+    height: 560px;
+    width: 100%;
+    background-size: cover;
+}
+
+#rectangle{
+    width: 150px;
+    height: 35px;
+    background: rgba(138, 83, 83,0);
+    border: 1px solid white;
+    position: absolute;
+    top: 2770px;
+    left: 350px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.Title8{
+    position: absolute;
+    color: white;
+    font-size: 180%;
+    top: 2835px;
+    left: 350px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.I7{
+    position: absolute;
+    top: 2950px;
+    left: 350px;
+}
+
+
+.Text10{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    top: 2966px;
+    left: 404px;
+    text-align: center;
+}
+
+.Block6{
+    height: 520px;
+    width: 100%;
+}
+
+.Title9{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    top: 3270px;
+    left: 180px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Text11{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    top: 3300px;
+    left: 180px;
+    text-align: justify;
+    height: 200px;
+    width: 30%;
+}
+
+.I8{
+    position: absolute;
+    top: 3130px;
+    left: 55.9%;
+}
+
+.Title10{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    top: 2800px;
+    left: 350px;
+    text-align: center;
+    font-weight: bold;
+}
